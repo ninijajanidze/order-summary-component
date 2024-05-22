@@ -1,0 +1,200 @@
+
+body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 327px;
+    height: 567px;
+    padding: 0 0 32px;
+    border-radius: 20px;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
+    background-color: #fff;
+}
+
+.hero {
+    width: 327px;
+    height: 160px;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    width: 263px;
+    height: 29px;
+    margin: auto;
+    margin-top: 32px;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2e55;
+}
+
+p {
+    width: 263px;
+    height: 75px;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color: #717fa6;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    width: 279px;
+    height: 81px;
+    margin: 24px;
+    padding: 17px 16px 16px;
+    border-radius: 11px;
+    background-color: #f7f9ff;
+}
+
+.music {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+h2 {
+    width: 81px;
+    height: 19px;
+    margin: 0 0 3px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1f2e55;    
+}
+
+h3 {
+    width: 81px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #717fa6;
+}
+
+span {
+    width: 48px;
+    height: 17px;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #382ae1;
+    text-decoration-line: underline;
+}
+
+.pay {
+    width: 279px;
+    height: 50px;
+    border-radius: 11px;
+    margin: 0 24px;
+    border: none;
+    box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+    background-color: #382ae1;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.cancel {
+    all: unset;
+    width: 96px;
+    height: 20px;
+    margin: 24px 115px 0;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+    color: #717fa6;
+}
+
+
+
+@media screen and (min-width:1440px) {
+
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+
+    .container {
+        width: 450px;
+        height: 697px;
+        padding: 0 0 48px;
+    }
+    
+    .hero {
+        width: 450px;
+        height: 220px;
+    }
+    
+    h1 {
+        width: 354px;
+        height: 37px;
+        margin-top: 45px;
+        font-size: 28px;
+    }
+    
+    p {
+        width: 354px;
+        height: 78px;
+        margin-top: 17px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+    
+    .info {
+        width: 354px;
+        height: 98px;
+        margin: 20px 48px 32px;
+        padding: 25px 24px;
+    }
+    
+    h2 {
+        width: 92px;
+        height: 21px;
+        margin: 0 0 6px;
+        font-size: 16px;
+    }
+    
+    h3 {
+        width: 92px;
+        height: 21px;
+        font-size: 16px;
+    }
+    
+    span {
+        width: 52px;
+        height: 19px;
+        margin-left: 94px;
+        font-size: 14px;
+    }
+
+    span:hover {
+        color: #766cf1;
+        cursor: pointer;
+        text-decoration-line: none;
+    }
+    
+    .pay {
+        width: 354px;
+        margin: 0 48px 32px;
+    }
+
+    .pay:hover {
+        background-color: #766cf1;
+        cursor: pointer;
+    }
+    
+    .cancel {
+        margin: 0 178px;
+    }
+
+    .cancel:hover {
+        color: #1f2e55;
+        cursor: pointer;  
+    }
+
+}
