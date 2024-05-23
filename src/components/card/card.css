@@ -1,6 +1,7 @@
 
 body {
-    background-image: url(images/pattern-background-mobile.svg);
+    background-image: url("../../../public/images/pattern-background-mobile.svg");
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -115,7 +116,7 @@ span {
 @media screen and (min-width:1440px) {
 
     body {
-        background-image: url(images/pattern-background-desktop.svg);
+        background-image: url("../../../public/images/pattern-background-desktop.svg");
     }
 
     .container {
